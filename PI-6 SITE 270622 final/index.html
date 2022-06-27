@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html lang=”pt-br”>
+
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title>BIOLUZ </title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body class="px-2">
+    <!-- Navbar -->
+    <nav width="100%" class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <div class="logo">
+            <img src="img/logo oficial2.png" alt="some text" width=75 height=60>
+        </div>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+            <div class="titulos_nav collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Simulacao.html">Simulação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sobre.html">Sobre</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <!--FIM NAV-->
+
+    <!-- Inicio do Banner -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="img/1.jpg" width="100%" height="600px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Para um mundo melhor</h3>
+                    <strong>
+							<p>Ajudamos a viabilizar o seu sonho, e melhorar o nosso planeta</p>
+						</strong>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/3.jpg" width="100%" height="600" ">
+				<div class=" carousel-caption d-none d-md-block ">
+					<h3>Energia que funciona</h3>
+					<strong>
+						<p>Garantimos qualidade</p>
+					</strong>
+				</div>
+			</div>
+			<div class="carousel-item " data-bs-interval="4000 ">
+				<img src="img/2.jpg " width="100% " height="600 ">
+				<div class="carousel-caption d-none d-md-block ">
+					<h3>Ajudamos a construir um mundo melhor.</h3>
+					<p><strong>Fazemos a nossa parte</strong></p>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleDark " data-bs-slide="prev ">
+			<span class="carousel-control-prev-icon " aria-hidden="true "></span>
+			<span class="visually-hidden ">Previous</span>
+		</button>
+		<button class="carousel-control-next " type="button " data-bs-target="#carouselExampleDark " data-bs-slide="next ">
+			<span class="carousel-control-next-icon " aria-hidden="true "></span>
+			<span class="visually-hidden ">Next</span>
+		</button>
+		</div>
+	</center>
+
+
+	<!-- HOME -->
+	<div class="titulo_h ">
+		<!-- H1 DA HOME -->
+		<h1>Uma imagem vale mais que mil palavras!</h1>
+		<script>
+			function typeWriter(elemento) {
+			  const textoArray = elemento.innerHTML.split('');
+			  elemento.innerHTML = '';
+			  textoArray.forEach((letra, i) => {
+				setTimeout(() => elemento.innerHTML += letra, 75 * i);
+			  });
+			}
+			const titulo = document.querySelector('h1');
+			typeWriter(titulo);
+		  </script>
+	</div><br>
+	<div width="100% " class="flex-container ">
+
+		<div class="row " style="margin: 0; ">
+			<!-- 1° CARD DA HOME -->
+			<div class="cards card " style="width: 20rem; ">
+				<img src="img/comparacao_conta1.jpg " class="card-img-top " alt=" ">
+				<div class="card-body ">
+					<h5 class="card-title ">PARA SUA EMPRESA</h5>
+					<p class="card-text ">Quer reduzir os custos na sua empresa e não sabe como? A conta de Luz pode ser
+						o ponta pé inicial.</p>
+					<a href="Simulacao.html " class="btn btn-primary ">Diminua sua conta agora!</a>
+				</div>
+			</div>
+			<!-- 2° CARD DA HOME -->
+			<div class="cards card " style="width: 20rem; ">
+				<img src="img/comparacao_conta2.jpg " class="card-img-top " alt=" ">
+				<div class="card-body ">
+					<h5 class="card-title ">PARA SUA CASA</h5>
+					<p class="card-text ">A BIO LUZ ajuda você economizar até 95% da conta de luz através da energia
+						capturada por painéis fotovoltaico</p>
+					<a href="Simulacao.html " class="btn btn-primary ">Diminua sua conta agora!</a>
+				</div>
+			</div>
+
+
+			<br>
+			<div class="col-md 12 "><br>
+				<h2>
+					<strong> Projetos acessíveis financeiramente que geram investimento.</strong>
+					<p>O propósito da nossa marca é desmistificar e popularizar a energia solar no Brasil, para tanto,
+						oferecemos projetos com preços mais em conta do que o mercado tradicional, por conta de nosso
+						modelo de negócio.</p>
+				</h2>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- fim cards -->
+	<!-- Botão whats pulse-->
+	<link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css ">
+	<a href="https://api.whatsapp.com/send/?phone=5519996300297&text&app_absent=0" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow:
+                    1px 1px 2px #888; z-index:1000; " target="_blank ">
+		<i style="margin-top:16px " class="fa fa-whatsapp "></i>
+	</a>
+
+	<!-- fim seção da home 1 -->
+	<!--FOOTER -->
+	<footer width="100% " class="footer ">
+		<div class="container ">
+			<div class="row ">
+				<div class="colunasf col-12 col-md col-sm-12 ">
+					<h5>Nosso Endereço</h5>
+					<ul class="list-unstyled text-small ">
+						<li>
+							Rua Gonvernador Valadares, nº 100 - Araras-Sp
+						</li>
+					</ul>
+				</div>
+				<div class="colunasf col-12 col-md ">
+					<h5>Contatos</h5>
+					<ul class="list-unstyled text-small ">
+						<li>
+							<span><i class="fas fa-envelope "></i> Email :</span>
+							<a href="mailto:contato@nossoguiasp.com.br " title="email do nosso guia sp "
+								target="_system ">contato@bioluz.com.br</a>
+						</li>
+						<li>
+							<span><i class="fab fa-whatsapp-square "></i> Whatsapp :</span>
+							<a href="https://api.whatsapp.com/send/?phone=5519996300297&text&app_absent=0" target="_system ">(19)996300297</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</footer>
+	<!--FIM FOOTER-->
+	<div width="100% " class="sub-footer ">
+		<div class="container py-lg-2 ">
+			<small class="d-block mb-3 " style="color: #FFF; margin-top: 2%; ">&copy; 2022 BIO LUZ - Todos os direitos
+				reservados</small>
+		</div>
+	</div>
+</body>
+
+</html>
